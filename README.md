@@ -1,4 +1,6 @@
-# insta-story
+# react_insta_ts_vite
+
+
  
 # Story Feature App
 
@@ -50,16 +52,14 @@ This project implements a simple "Story" feature, inspired by platforms like Ins
 3. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    # or
-   yarn start
    ```
 
 4. Open the app in your browser:
 
    ```
-   http://localhost:3000
-   ```
+]http://localhost:5173/)   ```
 
 ---
 
