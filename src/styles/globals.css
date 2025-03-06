@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white;
+}
+
+.story-container {
+  @apply flex items-center justify-center min-h-screen px-4 py-6 bg-black/80;
+}
+
+.story-progress-bar {
+  @apply h-1 bg-gray-700 rounded-full overflow-hidden shadow-lg transition-all;
+}
+
+.story-progress-bar-fill {
+  @apply h-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 transition-all duration-[3000ms] ease-linear rounded-full;
+}
+
+.story-close-button {
+  @apply absolute top-4 right-4 bg-gray-700 hover:bg-gray-600 text-white rounded-full p-2 shadow-lg transition-all;
+}
+
+.story-navigation-button {
+  @apply bg-gray-700 bg-opacity-50 hover:bg-opacity-80 text-white rounded-full p-3 shadow-lg transition-transform transform hover:scale-105;
+}
+
+.story-image {
+  @apply max-w-full max-h-full rounded-xl shadow-2xl object-contain transition-transform duration-300 ease-in-out;
+}
+
+.story-timestamp {
+  @apply absolute bottom-4 left-4 text-sm text-white/70 font-light;
+}
+
+.story-progress-container {
+  @apply absolute top-4 left-4 right-4 flex items-center space-x-2;
+}
+
+.story-navigation-container {
+  @apply absolute inset-y-0 flex items-center justify-between px-4;
+}
+
+.story-wrapper {
+  @apply relative max-w-4xl mx-auto flex items-center justify-center bg-black/70 rounded-lg overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105;
+}
